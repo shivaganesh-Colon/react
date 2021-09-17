@@ -7,7 +7,7 @@ state ={
 }
 add =(e) =>{
      e.preventDefault();
-     if(this.state.name === "" && this.state.email === ""){
+     if(this.state.name === "" || this.state.email === ""){
          alert('all fields are mandatory')
          return
      }
